@@ -1,0 +1,166 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16 May, 2017, 3:21:30 PM
+    Author     : Varun
+*/
+*{
+    font-family: global6;
+
+}
+
+.headp{
+    margin-top: 0px; 
+    font-family: Open Sans;
+    font-size: 22px; 
+    color: black; 
+    display: inline-block;
+    height: 50px;
+    border-bottom: 2px solid #357ebd;
+}
+
+.text{
+    color: black;
+    clear: both;
+    margin-top: 10px;
+    font-family: Open Sans;
+}
+.textinput
+{
+   border: 1px solid gainsboro;
+   height: 50px;
+   width: 100%;
+   padding-left: 10px;
+   font-family: global6;
+   font-size: 14px;
+   
+}
+
+.inputpart1{
+    margin-top: 0px;
+    padding: 0px;
+    padding-right: 15px;
+    clear: both;
+}
+
+.inputpart2{
+    padding: 0px;
+    padding-left: 15px;
+}
+
+.submitbtn
+{
+    height: auto;
+    float: right;
+    margin: auto;
+    background: #357ebd;
+    border: none;
+    color: white;
+    cursor: pointer;
+      box-shadow: 0px 17px 10px -10px rgba(0,0,0,0.4);
+
+}
+
+.submitbtn:hover
+{
+    box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.2);
+    transform: translate(0px, 5px) scale(1.02);
+    transition: transform 0.3s ease;
+}
+
+.submitbtn2
+{
+    margin-right: 20px;
+    padding: 5px;
+    padding-right: 10px; 
+    padding-left: 10px;
+    margin-bottom: 20px;
+    height: auto;
+    float: right;
+    margin: auto;
+    background: #357ebd;
+    border: none;
+    color: white;
+    cursor: pointer;
+    
+}
+.submitbtn i{
+    float: right;
+}
+
+.line{
+    clear: both; 
+    height: 1px;
+    background: gainsboro;
+    margin-bottom: 40px;
+}
+
+
+@media screen and (min-width:768px){
+    
+}
+
+@media screen and (max-width:768px){
+    
+    .inputpart1{
+    padding: 0px;
+    clear: both;
+}
+
+.inputpart2{
+    padding: 0px;
+}
+}
+
+
+.edit .customUpload p{
+    
+    float: right;
+    background: gainsboro;
+    display: inline-block;
+
+}
+
+.upload{
+    width: 50%; border: 1px solid gainsboro;
+}
+
+.upload .uploadLabel{
+    display: inline; padding-left: 5px;
+}
+
+.upload .uploadLabel p{
+    margin: 0px; padding: 0px; float: right;background: gainsboro;
+}
+
+.ShowData{
+    margin-bottom: 20px; 
+    width: 100%; border: 1px solid #ccc; height: auto; padding: 0px; border-radius: 10px; overflow: hidden;
+}
+
+.ShowData .delete{
+     top: 0px;
+     overflow: hidden;
+     background: gainsboro;
+}
+
+.ShowData h4{
+    align-content: center;
+    display: inline-block;
+    text-align: center;
+}
+
+.HiddenHeader
+    {
+        position: fixed;
+        display: none;
+        width: 100%;
+        height: auto;
+        z-index: 99;
+        background: #555;  
+        -webkit-transition: bottom 2s;
+        transition: bottom 2s;
+    }

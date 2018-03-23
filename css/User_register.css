@@ -1,0 +1,111 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 21, 2017, 11:09:41 PM
+    Author     : Varun
+*/
+.textbox{
+    
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 35px;
+    float: none;
+    color: black;
+    font-family: global6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.075);
+    
+}
+
+.formText{
+    size: 14px;
+    color:black;
+   margin: 0px;
+}
+
+
+input[type]{
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #DDDDDD;
+}
+ 
+input[type]:focus{
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid rgba(81, 203, 238, 1);
+}
+
+.textarea{
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #DDDDDD;
+}
+ 
+.textarea:focus{
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid rgba(81, 203, 238, 1);
+}
+
+
+
+.bgimg {
+  background-image: url("../backgroundimage/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+/*  min-height: 350px;*/
+}
+
+.vis
+  {
+    display: block;
+      
+      
+  }
+
+  
+  
+@media screen and (min-width:1000px)
+{
+    .vis
+  {
+    display: block;
+      
+      
+  }
+  
+  
+    
+}
+
+@media screen and (max-width:1000px)
+{
+    .vis
+  {
+   display: none;
+      
+  }
+  
+  .wid
+  {
+      
+      width: 100%;
+      margin: auto;
+  }
+    
+}

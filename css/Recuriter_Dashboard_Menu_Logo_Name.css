@@ -1,0 +1,39 @@
+.sidebar1
+{
+    border-radius: 2px;
+    height: auto;
+    padding: 0px;
+   line-height: 25px;
+   border-bottom: 1px solid lightgray;
+   
+}
+
+.para
+          {
+
+              font-family: global6; font-size: 17px;line-height: 20px;padding-left: 15px;color: black;
+              text-align: left;
+          }
+
+.fu {
+	position: relative;
+	display: inline-block;
+}
+
+
+    
+.fu__input {
+    position: relative;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 10px;
+    width:40px;
+    height:40px;
+    opacity: 0;
+}
+
+/*****************************************
+ design styles
+******************************************/

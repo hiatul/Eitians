@@ -1,0 +1,55 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26 Feb, 2017, 12:25:39 PM
+    Author     : Nishant
+*/
+
+
+@font-face
+{
+    font-family: global;
+    src:url(../font/five.ttf);
+    
+}
+
+@font-face
+{
+    font-family: global6;
+    src:url(../font/open.ttf);
+    
+}
+
+@font-face
+{
+    font-family: global7;
+    src:url(../font/openb.ttf);
+    
+}
+@font-face
+{
+    font-family: global8;
+    src:url(../font/openbe.ttf);
+    
+}
+@font-face
+{
+    font-family: global3;
+    src:url(../font/fourth.ttf);
+    
+}
+@font-face
+{
+    font-family: global4;
+    src:url(../font/CaviarDreams.ttf);
+    
+}
+@font-face
+{
+    font-family: global5;
+    src:url(../font/Caviar_Dreams_Bold.ttf);
+    
+}

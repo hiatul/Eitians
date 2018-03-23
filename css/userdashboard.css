@@ -1,0 +1,105 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 23, 2017, 7:56:33 PM
+    Author     : Varun
+*/
+
+.bgimg {
+  background-image: url("../backgroundimage/background.jpg");
+  min-height: 150px;
+}
+
+
+.dashboardBody
+{    
+    color: #fff;
+    background-color:#f9f9f9;
+    text-align:center;
+    clear: both;
+    float: left;
+    text-align: justify;
+    font-family: global7;
+}
+
+.dashboardBody .dashboardContent
+{
+     height: 800px;
+     background: white;
+     position: relative;
+     float: left; 
+}
+
+.dashboardMenu
+{
+    position: relative;
+    float: left;
+    margin: auto;
+    border-right: 1px solid #cacaca;
+    border-bottom: 1px solid #cacaca;
+    display: block;
+}
+
+.dashboardMenu .list1{
+    list-style: none; 
+    margin: 0px;
+    padding: 0px;
+    padding-top: 7px;
+    padding-bottom: 10px; 
+    align-items: center;
+    /*text-align: center;*/
+    color: #555;
+    font-size: 12px;
+    font-family: global7;   
+}
+
+.dashboardMenu .listborder{    
+    border-bottom: 1px solid #cacaca;
+}
+
+
+.dashboardMenu ul a{
+    text-decoration: none;
+    color: #555;
+}
+
+.dashboardMenu .list1 li:hover {background-color: #eeeeee;
+border-right: 5px solid #0088cc;
+color:#555;
+}
+
+.dashboardMenu .list1 .list1 li:hover {background-color: #eeeeee;
+border-right: 5px solid #555;
+color:#555;
+}
+
+/*@media only screen and (min-width: 768px)
+{
+    .dashboardMenu{
+        visibility: hidden;
+        display: none;
+    }
+    
+    
+}*/
+
+@media only screen and (max-width: 768px)
+{
+    .dashboardMenu{
+        width: 100px;
+        position: absolute;
+        float: left;
+        margin: auto;
+        border-right: 1px solid #cacaca;
+        border-bottom: 1px solid #cacaca;
+        display: block;
+        z-index: 99;
+        background: #f9f9f9;
+        
+    }
+    
+    
+}

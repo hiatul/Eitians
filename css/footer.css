@@ -1,0 +1,52 @@
+.options
+{
+    color: #ccc;
+    text-align: left;
+    font-family: global6;
+    font-size: 15px;
+    margin: 0px;
+    text-decoration: none;
+    
+}
+.headings
+{
+     color: #fff;
+    text-align: left;
+    font-family: global6;
+    font-size: 18px;
+    margin: 0px;
+    text-decoration: none;
+    
+}
+
+.f1
+{
+   padding: 0px;
+   height: 300px; 
+   width: auto;
+  
+   
+}
+
+@media screen and (min-width:840px)
+{
+    .padFooter
+  {
+      margin-right: 60px;
+      
+  }
+    
+}
+
+@media screen and (max-width:840px)
+{
+    .padFooter
+  {
+      margin-right: 0px;
+      
+  }
+    
+}
+
+
+

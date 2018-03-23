@@ -1,0 +1,194 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 28, 2017, 9:42:16 PM
+    Author     : Varun
+*/
+
+p{
+    margin: 0px;
+    padding: 0px;
+    
+}
+*{
+       
+       font-family: sans-serif;
+}
+.main{
+   
+    height: auto;
+    background: #f9f9f9;
+    overflow: auto;
+    
+}
+.Personal{
+    margin: auto;
+    overflow: auto;
+    
+}
+
+.Icon
+{
+    width: 30px;
+    height: 30px;
+    clear: both;
+    float: left;
+}
+
+.WorkExp{
+    margin: auto;
+    clear: both;
+    overflow: auto;
+
+}
+.Education{
+    margin: auto;
+    clear: both;
+    overflow: auto;
+    
+}
+.KeySkill{
+    margin: auto;
+    clear: both;
+    overflow: auto;
+    
+}
+.Resume{
+    margin: auto;
+    clear: both;
+    overflow: auto;
+}
+
+.line
+{
+    
+    clear: both;
+    height: 1px;
+    clear: both;
+    margin-top: 5px;
+    background: gainsboro;
+}
+
+.IconText
+{
+    float: left; 
+    padding-left: 5px;
+    font-size: 18px;
+    color: #000;
+    font-family: global6; 
+}
+
+.SectionHeading{
+    
+    float: left;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+.formContent{
+    
+/*     background: gray;     */
+     overflow: auto;
+     color: #000;
+     height: auto;
+     font-size: 13px;
+}
+
+.formContent .label
+{
+    clear: both;
+    text-align: right;
+    float: left;
+    width: 30%;
+    padding: 10px;
+    color: #000;
+    font-family: sans-serif;
+}
+
+.formContent .edit
+{
+    float: left; 
+    padding-left: 15px;
+    width: 70%;
+    padding: 10px;
+}
+
+.edit input{
+    width: 100%;
+    border: 1px solid gainsboro;
+    height: 25px;
+    float: left;
+    padding-left: 5px;
+}
+
+select
+{
+    border: 1px solid gainsboro;
+    height: 25px;
+    padding-left: 5px;
+
+}
+
+ input[type=radio] {
+    border: 0px;
+    width: 100%;
+    height: 1em;
+    
+}
+
+input[type=file] {
+    
+    display: none;
+}
+
+.customUpload{
+    border: 1px solid gainsboro;
+    width: 100%;
+    display: inline-block;
+    padding-left: 5px;
+    cursor: pointer;
+    color: gray;
+}
+
+.customUpload p{
+    
+    float: right;
+    background: gainsboro;
+    padding: 0px 5px;
+
+}
+
+
+option{
+    color: #000;
+}
+
+.fresher{
+   display: block; 
+   float: none;
+    margin: auto;
+}
+
+.exp
+{
+    display: none;
+    margin: auto;
+}
+
+.Submit{
+    margin: auto;
+    clear: both;
+    text-align: center;
+}
+
+.Submit input[type=submit] {
+    margin-top: 20px;
+    border: none;
+    background: #007bb5;
+    color: white;
+    width: 120px;
+    height: 30px;
+}

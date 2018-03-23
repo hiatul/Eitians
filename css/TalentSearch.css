@@ -1,0 +1,141 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21 Jul, 2017, 8:45:24 PM
+    Author     : Varun
+*/
+
+.Enterborder{
+    border-radius: 5px;
+    height: 50px;
+    padding: 5px;
+    border: none;
+}
+
+.inpstyle
+{
+    border: none;
+    position: relative;
+    padding-left: 15px;
+    width: 100%;
+    font-size: 16px;
+    color: #555;
+    height: 42px;
+}
+
+.error
+{
+    color: red;
+    font-size: 14px;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 10px;
+
+}
+
+.headpara
+{
+    margin: 0px;
+    padding: 0px;
+    margin-left: 10px;
+    color: white;
+    font-size: 18px;
+}
+
+.submitbtn
+{
+    height: auto;
+    float: right;
+    margin: auto;
+    background: #357ebd;
+    border: none;
+    color: white;
+    cursor: pointer;
+      box-shadow: 0px 17px 10px -10px rgba(0,0,0,0.4);
+
+}
+
+.submitbtn:hover
+{
+    box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.2);
+    transform: translate(0px, 0px) scale(1.02);
+    transition: transform 0.3s ease;
+}
+
+
+/*///input text style/*/
+ .page-wrap {
+                max-width: 75rem;
+                margin: 0 auto;
+              }
+              
+         input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
+            font-size: 0.75em;
+            color: #357ebd;
+            top: -1.2rem;
+            -webkit-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+           }
+
+           .styled-input2 {
+             width: 100%;
+             background: white;
+             margin: 2rem 0 1rem;
+             margin-top: 0px;
+             position: relative;
+             border: 1px solid gainsboro;
+           }
+
+           .styled-input2 label {
+             color: #999;
+             padding: 1rem;
+             position: absolute;
+             top: 0;
+             left: 0;
+             -webkit-transition: all 0.3s ease;
+             transition: all 0.3s ease;
+             pointer-events: none;
+           }
+
+           .styled-input2.wide { width: 100%; }
+
+           input[type=text],
+           textarea {
+             padding: 1rem 1rem;
+             border: 0;
+             width: 100%;
+             font-size: 1rem;
+           }
+
+         input ~ span,
+           textarea ~ span {
+             display: block;
+             width: 0;
+             height: 2px;
+             background: #357ebd;
+             position: absolute;
+             bottom: 0;
+             left: 0;
+             -webkit-transition: all 0.3s ease;
+             transition: all 0.3s ease;
+           }
+
+          input:focus,
+           textarea:focus { outline: 0; }
+
+            input:focus ~ span,
+           textarea:focus ~ span {
+             width: 100%;
+             -webkit-transition: all 0.3s ease;
+             transition: all 0.3s ease;
+           }
+
+           textarea {
+             width: 100%;
+             min-height: 7em;
+           } 
+           
+           

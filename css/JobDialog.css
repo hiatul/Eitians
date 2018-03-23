@@ -1,0 +1,57 @@
+.jobstyle
+{
+    height: auto; padding: 10px; border:none;
+    box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.1);
+}
+
+
+.cmpnt
+{
+    
+    font-family:global6;font-size: 25px;height:30px;display: inline-block;margin-top:0px;
+}
+
+.basic
+{
+    
+    display: inline-block;
+    height: auto;padding: 0px;margin: 0px;
+}
+
+.pp
+{
+    
+    font-family:global6;padding: 0px;margin: 0px;
+    color:black;
+}
+.titleh:hover
+{
+    color: #357ebd;
+    
+}
+
+@media screen and (min-width:768px)
+{
+    .content
+    {
+        
+        margin-left: 30px;
+    }
+           .imm
+           {
+               display: block;
+           }
+        
+    
+}
+
+@media screen and (max-width:768px)
+{
+    .imm
+           {
+               
+               display: none;
+           }
+   
+
+}

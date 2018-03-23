@@ -1,0 +1,37 @@
+.sidebar
+{
+    border-radius: 2px;
+    height: auto;
+    padding: 0px;
+   line-height: 25px;
+   border-bottom: 1px solid lightgray;
+  border-left: 6px solid white;
+   
+}
+
+.para
+          {
+
+              font-family: global6; font-size: 17px;line-height: 20px;padding-left: 15px;color: black;
+              text-align: left;
+          }
+          
+
+.para i
+{
+    color: #357ebd;
+}
+.sidebar:hover i{
+    color: white;
+}
+.sidebar:hover
+{
+    
+   
+    background: #357ebd;
+    border-left: 6px solid gray;
+}
+
+.sidebar:hover .para{
+    color: white;
+}

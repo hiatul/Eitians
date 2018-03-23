@@ -1,0 +1,230 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15 May, 2017, 11:46:42 PM
+    Author     : Varun
+*/
+
+
+    
+.bgimg {
+  background-image: url("../backgroundimage/background.jpg");
+  min-height: 150px;
+}
+
+.list1{
+    
+        list-style: none;
+        padding-left: 0px;
+        list-style: none;
+        font-family: global6;
+        font-size: 18px;
+        border-radius: 2px;
+}
+
+.list1 li{
+    border-bottom: 1px solid gainsboro;
+    border-left: 5px solid #fff;
+    padding-left: 20px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.list1 a{
+     text-decoration: none;
+     color: black;
+     word-spacing: 5px;
+     
+}
+
+.list1 li:hover{
+        border-bottom: 1px solid #fff;
+        background: #357ebd;
+        border-left: 5px solid gray;
+        color: white;
+
+}
+
+.list1 li:hover a{
+    color: white;
+}
+
+.list1:hover{
+            box-shadow: 2px 2px 15px 1px rgba(0,0,0,0.3);
+            transition: box-shadow 0.3s ease;
+}
+
+.list1 i{
+    padding-right: 5px;
+    color: #357ebd;
+}
+
+.list1 li:hover i{
+    color: #fff;
+}
+
+ .DataDiv{
+    float: left;
+    width: 30%;
+    padding: 5px;
+    line-height: 50px;
+    padding-left: 10px;
+    background: #f1f1f1;
+    border-bottom: 4px solid #fff;
+    font-family: global6;
+    font-size: 19px;
+    color: black;
+    }
+    
+     .Title
+           {
+               float: left;
+               margin-right: 20px;
+               margin-top: 0px;
+           }
+
+@media only screen and (min-width: 768px)
+{
+   .content1{
+       border-left: 1px solid gainsboro;
+      padding-left: 15px;
+      background: white;
+   }
+   
+   .content2{
+       border-left: 1px solid gainsboro;
+       padding: 0px;
+       background: white;
+
+   }
+  
+   
+    .Title
+           {
+               float: none;
+           }
+}
+
+
+/*///input text style/*/
+ .page-wrap {
+                max-width: 75rem;
+                margin: 0 auto;
+              }
+              
+            input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
+            font-size: 0.75em;
+            color: #357ebd;
+            top: -1.2rem;
+            -webkit-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+           }
+
+           .styled-input {
+             width: 100%;
+             background: white;
+             margin: 2rem 0 1rem;
+             margin-top: 0px;
+             position: relative;
+             border: 1px solid gainsboro;
+           }
+
+           .styled-input label {
+             color: #999;
+             padding: 1rem;
+             position: absolute;
+             top: 0;
+             left: 0;
+             -webkit-transition: all 0.3s ease;
+             transition: all 0.3s ease;
+             pointer-events: none;
+           }
+
+           .styled-input.wide { width: 100%; }
+
+           input,
+           textarea {
+             padding: 1rem 1rem;
+             border: 0;
+             width: 100%;
+             font-size: 1rem;
+           }
+
+           input ~ span,
+           textarea ~ span {
+             display: block;
+             width: 0;
+             height: 2px;
+             background: #357ebd;
+             position: absolute;
+             bottom: 0;
+             left: 0;
+             -webkit-transition: all 0.3s ease;
+             transition: all 0.3s ease;
+           }
+
+           input:focus,
+           textarea:focus { outline: 0; }
+
+           input:focus ~ span,
+           textarea:focus ~ span {
+             width: 100%;
+             -webkit-transition: all 0.3s ease;
+             transition: all 0.3s ease;
+           }
+
+           textarea {
+             width: 100%;
+             min-height: 7em;
+           } 
+           
+           
+           
+           
+
+.EditProfie
+{
+    background: whitesmoke;
+    padding: 30px;
+}
+
+.Resume
+{
+  padding: 30px;   
+}
+
+.ViewSkills
+{
+    background: whitesmoke;
+    margin-bottom: 20px;
+    padding: 30px;
+    overflow: hidden;
+}
+
+
+.ViewWork{
+    margin-bottom: 10px;
+    background: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.1);
+
+}
+
+.ViewWork:hover
+{
+    box-shadow: 0px 0px 16px 2px rgba(0,0,0,0.1);
+    transition: box-shadow 0.6s ease;
+}
+
+
+.SocialLinks{
+    /*background: #87CAE6;*/
+    background: #f1f1f1;
+    overflow: hidden;
+    width: 100%;
+    padding: 20px;
+    margin-top: 40px;
+}

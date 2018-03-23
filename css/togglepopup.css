@@ -1,0 +1,145 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11 Apr, 2017, 8:43:28 PM
+    Author     : Nishant
+*/
+
+.popup {
+    position: absolute;
+   top:100%;
+   right: 20%;
+
+    cursor: pointer;
+    z-index: 99999;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+display: none;
+position: relative;
+    background-color: #357ebd;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 6px;
+    padding: 0px 0px;
+   /*// position: absolute;*/
+    z-index: 9333;
+    width: 400px;
+    height: 420px;
+   /*// bottom: 125%;*/
+   
+   
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    bottom: 99%;
+    left: 85%;
+  
+     margin-left: -5px;
+    border-width: 15px;
+    border-style: solid;
+     
+    border-color: transparent transparent #357ebd transparent;
+}
+
+@media screen and (max-width:746px){
+    
+        .popup {
+        position: absolute;
+       top:100%;
+       right: 0%;
+       margin: auto;
+        cursor: pointer;
+        z-index: 99999;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    /* The actual popup */
+    .popup .popuptext {
+    display: none;
+    position: relative;
+        background-color: #357ebd;
+        color: #fff;
+        text-align: center;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        border-radius: 6px;
+        padding: 8px 0px;
+       /*// position: absolute;*/
+        z-index: 9333;
+        width: 350px;
+        height: auto;
+        overflow: hidden;
+        left: 20%;
+       /*// bottom: 125%;*/
+
+
+    }
+
+    /* Popup arrow */
+    .popup .popuptext::after {
+        content: "";
+        position: absolute;
+        bottom: 99%;
+        left: 50%;
+
+         margin-left: -5px;
+        border-width: 15px;
+        border-style: solid;
+
+        border-color: transparent transparent #357ebd transparent;
+    }
+
+    
+}
+
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+display: block;
+-webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+
+
+.btn
+{
+          box-shadow: 0px 17px 10px -10px rgba(0,0,0,0.4);
+
+}
+
+.btn:hover
+{
+    box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.2);
+    transform: translate(0px, 5px) scale(1.02);
+    transition: transform 0.3s ease;
+}
+
+.bold{
+    font-weight: bold;
+}

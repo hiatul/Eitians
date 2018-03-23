@@ -1,0 +1,73 @@
+
+.sidebar1
+{
+    border-radius: 2px;
+    height: auto;
+    padding: 0px;
+   line-height: 25px;
+   border-bottom: 1px solid lightgray;
+   
+}
+
+  .para
+          {
+
+              font-family: global6; font-size: 17px;line-height: 20px;padding-left: 15px;color: black;
+              text-align: left;
+          }
+           .profile
+          {
+              font-size: 20px;padding: 0px;font-family: global6;
+             display: inline-block;
+             height: 40px;
+             border-bottom: 3px solid #357ebd;
+
+          }
+          
+          
+.kk:hover
+{
+    box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s ease;
+    
+}
+
+
+
+
+
+@media screen and (min-width:768px)
+{
+    .content
+    {
+        
+        margin-left: 30px;
+    }
+           .imm
+           {
+               display: block;
+           }
+        
+    
+}
+
+@media screen and (max-width:768px)
+{
+    .imm
+           {
+               
+               display: none;
+           }
+   
+
+}
+
+
+
+.bold{
+    font-weight: bold;
+    color: #000;
+    border: none;
+}
+
+

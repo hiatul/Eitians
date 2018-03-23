@@ -1,0 +1,366 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27 Jan, 2017, 2:20:40 PM
+    Author     : Nishant
+*/
+*
+{
+    box-sizing: border-box;
+}
+
+.cursor
+{
+    cursor: pointer;
+}
+@font-face
+{
+    font-family: global6;
+    src:url(../font/open.ttf);
+    
+}
+.fk {
+  padding:0px 10px;
+ // font-size: 25px;
+ // width: 30px;
+  text-align: center;
+  text-decoration: none;
+//  margin: 5px 2px;
+  
+  //border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+ // background: #3B5998;
+  color: #3B5998;
+}
+
+.fa-twitter {
+ // : #55ACEE;
+  color: #55ACEE;
+}
+
+.fa-google {
+ // background: #dd4b39;
+  color: #dd4b39;
+}
+
+.fa-linkedin {
+ // background: #007bb5;
+  color: #007bb5;
+}
+
+.fa-youtube {
+ // background: #bb0000;
+  color: #bb0000;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+.fa-android {
+  background: #a4c639;
+  color: white;
+}
+
+.fa-dribbble {
+  background: #ea4c89;
+  color: white;
+}
+
+.fa-vimeo {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-tumblr {
+  background: #2c4762;
+  color: white;
+}
+
+.fa-vine {
+  background: #00b489;
+  color: white;
+}
+
+
+.fa-foursquare {
+  background: #45bbff;
+  color: white;
+}
+
+body {margin:0;}
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+  background-color: #fff;
+}
+
+ul.topnav li {float: left;
+
+
+}
+
+ul.topnav li a {
+  display: inline-block;
+  color: #555;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  position: relative;
+  font-family: global6;
+  transition: 0.3s;
+  border-top: 5px solid #fff;
+  font-size: 14px;
+}
+
+ul.topnav li a:hover {background-color: #eeeeee;
+border-top: 5px solid #0088cc;
+color:#555;
+}
+
+ul.topnav li.icon {display: none;}
+
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+ 
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+[class*="col-"] {
+    float: left;
+   padding: 10px;
+     position: relative;
+ //   padding: 15px;
+ 
+}
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3
+{
+  position: relative;
+ // opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("../image/tractr.jpg");
+  background-size: cover;
+  min-height: 100%;
+}
+
+
+.bgimg-2 {
+  background-image: url("../image/home.jpg");
+   background-size: cover;
+ 
+   height: 100%;
+}
+
+.bgimg-3 {
+  background-image: url("../backgroundimage/background.jpg");
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0px;
+ 
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption button.border {
+  background-color: #111;
+  color: #fff;
+  padding: 15px;
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
+    outline: none;
+   // transition: all 0.3s;
+    border:1px solid black;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+.caption button.border:active
+{
+     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.caption button.border:hover
+{
+     box-shadow: 0 8px 32px 0 rgba(0,0,0,0.2);
+}
+.card {
+   
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  //  transition: 0.3s;
+    width: 40%;
+    border-radius: 5px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img {
+    border-radius: 5px 5px 0 0;
+}
+
+.container {
+    padding: 2px 16px;
+}
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px)
+{
+   
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;
+   
+    }
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;
+     padding:50px 80px;
+    }
+   
+    
+    
+}
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5
+    {
+        background-attachment: scroll;
+    }
+}
+
+
+/* The snackbar - position it at the bottom and in the middle of the screen */
+#snackbar {
+    visibility: hidden; /* Hidden by default. Visible on click */
+    min-width: 250px; /* Set a default minimum width */
+    margin-left: -125px; /* Divide value of min-width by 2 */
+    background-color: #357ebd; /* Black background color */
+    color: #fff; /* White text color */
+    text-align: center; /* Centered text */
+    border-radius: 2px; /* Rounded borders */
+    padding: 16px; /* Padding */
+    position: fixed; /* Sit on top of the screen */
+    z-index: 1; /* Add a z-index if needed */
+    left: 50%; /* Center the snackbar */
+    bottom: 30px; /* 30px from the bottom */
+}
+
+/* Show the snackbar when clicking on a button (class added with JavaScript) */
+#snackbar.show {
+    visibility: visible; /* Show the snackbar */
+    clear: both;
+    float: none;
+/* Add animation: Take 0.5 seconds to fade in and out the snackbar. 
+However, delay the fade out process for 2.5 seconds */
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+/* Animations to fade the snackbar in and out */
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;} 
+    to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
+
+
+.dollar_style{
+    margin: 0px;
+    background: red;
+    float: left;
+    display: inline-block;
+}

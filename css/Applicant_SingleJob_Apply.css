@@ -1,0 +1,22 @@
+.inp{
+    height: 30px;
+    border-radius:4px;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.btn{
+    height: 30px;
+    border-radius:4px;
+    border: none;
+    width: 50%;
+    color: white;
+    margin-top: 20px;
+    background: #357ebd;
+    margin-bottom: 0px;
+}
+
+.message_p{
+    font-weight:bold;
+    margin-bottom: 0px;
+}
